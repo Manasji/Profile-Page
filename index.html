@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #3498db;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        hr {
+            border: 1px solid #3498db;
+            margin: 20px 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #111;
+        }
+
+        .mycontainer {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .aboutme-header{
+            font-size: 20px;
+        }
+        .mycontainer div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .img-pic{
+            display: flex;
+            flex-direction: row;
+        }
+        .img-column1{
+            flex: 1;
+        }
+        .img-column2{
+            flex: 1;
+        }
+        .c-image{
+            width: 75px;
+        }
+        .cpp-image{
+            width: 75px;
+        }
+        .aboutme-section{
+            line-height: 36px;
+        }
+        .contact-bottom{
+            margin-top: 60px;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            background-color: gray;
+            padding-top: 35px;
+        }
+        .insta-id{
+            text-decoration: underline;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .insta-id:hover{
+            color:#333
+        }
+        .twitter-id{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .twitter-id:hover{
+            color:#333;
+        }
+        .contact-bottom span{
+            text-decoration: underline;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>WHO AM I?</h2>
+    <p>Hi, I am Manas Khandelwal, a first-year undergrad at IIIT Allahabad.</p>
+    <hr>
+
+    <nav>
+        <a href="#ABOUTME">About me</a>
+        <a href="#COCURRICULAR">Co-curricular</a>
+        <a href="#ACADEMICS">Academics</a>
+        <a href="#SKILLS">Skills</a>
+    </nav>
+
+    <div class="mycontainer">
+        <div>
+            <h4 class="aboutme-header"><b>ABOUT ME</b></h4>
+            <ul class="aboutme-section">
+                <li><u><strong>Name:</strong></u> Manas Khandelwal</li>
+                <li><u><strong>Hobbies:</strong></u> Singing, Dancing, Playing games with friends, cooking </li>
+                <li><u><strong>Skills:</strong></u> Good knowledge of C/C++, decent knowledge of frontend dev, Communcation(Hindi,English)</li>
+                <li><u><strong>Achievements:</strong></u> Among the the top 1% of students all over India in JEE MAINS exam which granted me an esteemed government Institute, Part of multiple clubs in my college,</li>
+                <li><u><strong>Interest:</strong></u> DSA, Web Development, travelling</li>
+            </ul>
+        </div>
+        <div>
+            <h4><b>LANGUAGES</b></h4>
+            <div class="img-pic">
+                <div class="img-column1">
+                    <img class="c-image" src="C:\Users\Lalit\OneDrive\Desktop\webdproject_manas\logo_c_1.png">
+                <p>C language</p>
+                <img class="cpp-image" src="C:\Users\Lalit\OneDrive\Desktop\webdproject_manas\Cpp-Icon.png">
+                <p>C++ language</p>
+                </div>
+                <div class="img-column2">
+                    <img class="cpp-image" src="C:\Users\Lalit\OneDrive\Desktop\webdproject_manas\html.png">
+                    <p>html language</p>
+                    <img class="cpp-image" src="C:\Users\Lalit\OneDrive\Desktop\webdproject_manas\css.png">
+                    <p>css language</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="contact-bottom">
+        <ul> <span>Contact No</span>: 8893939385</ul>
+        <ul> <span>Email ID</span>: iit2023214@iiita.ac.in</ul>
+        <ul> <span>Follow me on</span>: <span class="insta-id">Instagram </span> <span class="twitter-id">Twitter </span></ul>
+        <ul> </ul>
+    </div>
+</body>
+</html>
