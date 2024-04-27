@@ -33,7 +33,11 @@ body {
 	position: absolute;
 	z-index: -3;
 }
-
+.cente {
+	display: flex ;
+	justify-content : center ;
+	align-item : center ;
+}
 /* Slide is used to slide the form left-right
 	sides when toggle on button */
 #slide {
